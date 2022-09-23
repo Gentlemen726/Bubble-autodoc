@@ -1,0 +1,81 @@
+{
+    "category": "plugins",
+    "display": "Generate ERC-20 Mint Signature",
+    "fields": {
+        "AVY": {
+            "caption": "Default Provider",
+            "doc": "Provide a RPC url for the smart contract you are minting from is on. Mainnet example: https://main-light.eth.linkpool.io",
+            "editor": "DynamicValue",
+            "name": "default_provider",
+            "options": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161,https://polygon-rpc.com,https://main-light.eth.linkpool.io",
+            "rank": 0,
+            "value": "text"
+        },
+        "AVc": {
+            "caption": "Token Receiver",
+            "doc": "The address of the wallet who can mint these tokens. If you want any address to be able to mint these tokens use: 0x0000000000000000000000000000000000000000",
+            "editor": "DynamicValue",
+            "name": "token_receiver",
+            "rank": 2,
+            "value": "text"
+        },
+        "AVd": {
+            "caption": "Price",
+            "doc": "The price the minter must pay in order to mint these tokens.",
+            "editor": "DynamicValue",
+            "name": "price",
+            "rank": 4,
+            "value": "number"
+        },
+        "AVg": {
+            "caption": "Primary Sale Recipient",
+            "doc": "The wallet that will receive the funds generated from the initial sale of these tokens.",
+            "editor": "DynamicValue",
+            "name": "primary_sale_recipient",
+            "rank": 3,
+            "value": "text"
+        },
+        "AVh": {
+            "caption": "Currency Address",
+            "doc": "The currency that the minter will be charged to mint these tokens. For the network native token use:  0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "editor": "DynamicValue",
+            "name": "currency_address",
+            "rank": 5,
+            "value": "text"
+        },
+        "AVi": {
+            "caption": "ERC-20 Contract Address",
+            "doc": "The ERC-20 smart contract that these tokens will be minted from. Make sure your signing private key has minting permission on the NFT smart contract.",
+            "editor": "DynamicValue",
+            "name": "token_contract_address",
+            "rank": 1,
+            "value": "text"
+        },
+        "AVj": {
+            "caption": "Days Valid",
+            "doc": "How many days will this signature be valid for.",
+            "editor": "DynamicValue",
+            "name": "days_valid",
+            "rank": 6,
+            "value": "number"
+        },
+        "AVl": {
+            "caption": "Quantity",
+            "doc": "The quantity of tokens to be minted.",
+            "editor": "DynamicValue",
+            "name": "quantity",
+            "rank": 7,
+            "value": "number"
+        }
+    },
+    "return_value": {
+        "AId": {
+            "caption": "Payload",
+            "name": "payload",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

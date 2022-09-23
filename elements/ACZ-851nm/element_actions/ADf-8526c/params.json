@@ -1,0 +1,34 @@
+{
+    "caption": "Deploy Marketplace",
+    "doc": "Deploy a NFT Marketplace smart contract.",
+    "fields": {
+        "ADh": {
+            "caption": "Name",
+            "doc": "The name of this Marketplace smart contract. This will only be visible when viewing this Marketplace smart contract on a block explorer.",
+            "editor": "DynamicValue",
+            "name": "name",
+            "rank": 0,
+            "value": "text"
+        },
+        "AIw": {
+            "caption": "Description",
+            "default_val": "This Marketplace smart contract was deployed using The web3 toolbox created by JackMorgan.xyz",
+            "doc": "The description of this Marketplace smart contract. This will only be visible when viewing this Marketplace smart contract on a block explorer.",
+            "editor": "DynamicValue",
+            "name": "description",
+            "optional": false,
+            "rank": 1,
+            "value": "text"
+        },
+        "AIx": {
+            "caption": "Image",
+            "default_val": "ipfs://QmYKNg4oN9B34yiT14R6JDueNKgVTYfNuuigkJo8jj57Mk",
+            "doc": "The image of this Marketplace smart contract. This will only be visible when viewing this Marketplace smart contract on a block explorer.",
+            "editor": "DynamicValue",
+            "name": "image",
+            "optional": false,
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

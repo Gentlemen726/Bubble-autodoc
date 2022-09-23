@@ -1,0 +1,83 @@
+{
+    "category": "plugins",
+    "display": "Deploy ERC-1155 Smart Contract",
+    "fields": {
+        "ARs": {
+            "caption": "RPC URL",
+            "doc": "Provide a RPC url for the default provider for the network you want this NFT smart contract deployed on. Mainnet example: https://main-light.eth.linkpool.io",
+            "editor": "DynamicValue",
+            "name": "default_provider",
+            "options": "https://rinkeby-light.eth.linkpool.io,https://polygon-rpc.com,https://main-light.eth.linkpool.io",
+            "rank": 0,
+            "value": "text"
+        },
+        "ARt": {
+            "caption": "Name",
+            "doc": "The name if the NFT smart contract.",
+            "editor": "DynamicValue",
+            "name": "name",
+            "rank": 1,
+            "value": "text"
+        },
+        "ARu": {
+            "caption": "Description",
+            "doc": "The description of this ERC-1155 smart contract.",
+            "editor": "DynamicValue",
+            "name": "description",
+            "rank": 2,
+            "value": "text"
+        },
+        "ARv": {
+            "caption": "Image",
+            "doc": "The image of this NFT smart contract.",
+            "editor": "DynamicValue",
+            "name": "image",
+            "rank": 3,
+            "value": "text"
+        },
+        "ARw": {
+            "caption": "Primary Sale Recipient",
+            "doc": "The wallet address that will receive the initial sale funds of any NFTs minted from this smart contract.",
+            "editor": "DynamicValue",
+            "name": "primary_sale_recipient",
+            "rank": 4,
+            "value": "text"
+        },
+        "ARx": {
+            "caption": "Symbol",
+            "doc": "This smart contracts symbol. eg = WEB",
+            "editor": "DynamicValue",
+            "name": "symbol",
+            "rank": 5,
+            "value": "text"
+        },
+        "ARy": {
+            "caption": "Seller Fee Basis Points",
+            "doc": "Optional: The percentage in basis points of secondary sales on NFTs minted from the market place that will be sent to the royalty fee recipient.",
+            "editor": "DynamicValue",
+            "name": "seller_fee_basis_points",
+            "optional": true,
+            "rank": 6,
+            "value": "number"
+        },
+        "ARz": {
+            "caption": "Fee Recipient",
+            "doc": "Optional: The wallet address that will receive the funds generated from the initial sale of NFTs minted from this smart contract. ",
+            "editor": "DynamicValue",
+            "name": "fee_recipient",
+            "optional": true,
+            "rank": 7,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "ARr": {
+            "caption": "Result",
+            "name": "payload",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

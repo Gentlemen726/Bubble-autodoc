@@ -1,0 +1,30 @@
+{
+    "caption": "ERC-20 - Mint Tokens",
+    "doc": "Mint ERC-20 tokens.",
+    "fields": {
+        "AIm": {
+            "caption": "Token Receiver",
+            "doc": "The wallet address that will receive the ERC-20 tokens once minted.",
+            "editor": "DynamicValue",
+            "name": "token_receiver",
+            "rank": 1,
+            "value": "text"
+        },
+        "AIn": {
+            "caption": "Quantity",
+            "doc": "The quantity of ERC-20 tokens being transferred.",
+            "editor": "DynamicValue",
+            "name": "quantity",
+            "rank": 2,
+            "value": "number"
+        },
+        "AIv": {
+            "caption": "Token Contract Address",
+            "doc": "The Token smart contract address of the ERC-20 tokens being transferred.",
+            "editor": "DynamicValue",
+            "name": "token_contract_address",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

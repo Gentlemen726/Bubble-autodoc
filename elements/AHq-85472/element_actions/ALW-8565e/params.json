@@ -1,0 +1,30 @@
+{
+    "caption": "Token Drop - Claim Tokens",
+    "doc": "Claim Token Drop.",
+    "fields": {
+        "ALd": {
+            "caption": "Token Drop Contract Address",
+            "doc": "The smart contract address of the tokens being claimed.",
+            "editor": "DynamicValue",
+            "name": "token_drop_contract_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "ALe": {
+            "caption": "Token Receiver",
+            "doc": "The wallet address that will receive the tokens once they have been claimed.",
+            "editor": "DynamicValue",
+            "name": "to_address",
+            "rank": 1,
+            "value": "text"
+        },
+        "ALf": {
+            "caption": "Quantity",
+            "doc": "The amount of tokens being claimed.",
+            "editor": "DynamicValue",
+            "name": "quantity",
+            "rank": 2,
+            "value": "number"
+        }
+    }
+}

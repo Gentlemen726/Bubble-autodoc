@@ -1,0 +1,109 @@
+{
+    "category": "plugins",
+    "display": "Generate NFT Drop Checkout URL",
+    "fields": {
+        "APP": {
+            "caption": "Contract Chain",
+            "doc": "Chain that the NFT smart contract is deployed on. Choices: Ethereum, Rinkeby, Polygon, Mumbai. ",
+            "editor": "DynamicValue",
+            "name": "contract_chain",
+            "rank": 1,
+            "value": "text"
+        },
+        "APR": {
+            "caption": "Color Scheme",
+            "doc": "The accent color for the checkout (buttons and links). Valid values: gray, red, orange, yellow, green, teal, blue, cyan, purple, pink",
+            "editor": "DynamicValue",
+            "name": "color_scheme",
+            "rank": 8,
+            "value": "text"
+        },
+        "APb": {
+            "caption": "Seller Twitter Handle",
+            "doc": "Override the seller's Twitter handle for this checkout.",
+            "editor": "DynamicValue",
+            "name": "seller_twitter_handle",
+            "rank": 9,
+            "value": "text"
+        },
+        "APc": {
+            "caption": "Collection Image URL",
+            "doc": "An image preview on the checkout. Supports .gif, .jpeg, and .png up to 10MB. Make sure it starts with https://",
+            "editor": "DynamicValue",
+            "name": "image_url",
+            "rank": 5,
+            "value": "text"
+        },
+        "APd": {
+            "caption": "Collection Name",
+            "doc": "The name of the NFT collection.",
+            "editor": "DynamicValue",
+            "name": "collection_name",
+            "rank": 3,
+            "value": "text"
+        },
+        "APe": {
+            "caption": "Collection Description",
+            "doc": "Optional: A description of the NFT collection.",
+            "editor": "DynamicValue",
+            "name": "collection_description",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        },
+        "APf": {
+            "caption": "Contract Address",
+            "doc": "The smart contract address of the NFTs being sold.  Example: 0x51bc2de5181a1964ad65669cf25ba0e97b8a84bf",
+            "editor": "DynamicValue",
+            "name": "contract_address",
+            "rank": 2,
+            "value": "text"
+        },
+        "APh": {
+            "caption": "Cancel URL",
+            "doc": "The URL that buyers will be redirected if they are unable to complete this purchase, such as using an expired one-time purchase links",
+            "editor": "DynamicValue",
+            "name": "cancel_url",
+            "rank": 7,
+            "value": "text"
+        },
+        "APi": {
+            "caption": "Success URL",
+            "doc": "The URL that buyers will be directed after a successful checkout.",
+            "editor": "DynamicValue",
+            "name": "success_url",
+            "rank": 6,
+            "value": "text"
+        },
+        "APj": {
+            "caption": "Limit Per Transaction",
+            "doc": "Set the max quantity allowed per purchase. Note: A buyer is still able to make multiple purchases. Defaults to 5.",
+            "editor": "DynamicValue",
+            "name": "limit_per_transaction",
+            "rank": 10,
+            "value": "number"
+        },
+        "AQl": {
+            "caption": "API Key Required,  Please visit Paper.xyz to sign up and receive an API key.",
+            "editor": "Label",
+            "name": "info",
+            "rank": 0
+        }
+    },
+    "return_value": {
+        "APp": {
+            "caption": "Checkout URL",
+            "name": "checkouturl",
+            "rank": 0,
+            "value": "text"
+        },
+        "AQb": {
+            "caption": "Checkout ID",
+            "name": "checkout_id",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": false
+}

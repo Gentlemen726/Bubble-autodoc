@@ -1,0 +1,51 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "Utils",
+    "events": {
+        "AJh": {
+            "caption": "Hex To Number Returned",
+            "doc": "The hex number was converted to a number.",
+            "name": "hex_to_number_returned"
+        },
+        "AJj": {
+            "caption": "Hex To Number Error",
+            "doc": "The error that occurred while converting hex to a number.",
+            "name": "hex_to_number_error"
+        }
+    },
+    "icon": "ion-cube",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "Font": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    },
+    "states": {
+        "AJi": {
+            "caption": "Hex To Number Result",
+            "doc": "The result from the hex conversion.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "hex_to_number_result",
+            "value": "number"
+        },
+        "AJk": {
+            "caption": "Hex To Number Error",
+            "doc": "An occurred while converting hex to a number.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "hex_to_number_error",
+            "value": "text"
+        }
+    }
+}

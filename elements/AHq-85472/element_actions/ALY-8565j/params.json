@@ -1,0 +1,30 @@
+{
+    "caption": "NFT Drop - Claim NFT",
+    "doc": "Claim a NFT Drop.",
+    "fields": {
+        "ALa": {
+            "caption": "NFT Contract Address",
+            "doc": "The smart contract address of the NFT being minted.",
+            "editor": "DynamicValue",
+            "name": "nft_contract_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "ALb": {
+            "caption": "NFT Receiver",
+            "doc": "The wallet address that will receive the NFT once its been minted.",
+            "editor": "DynamicValue",
+            "name": "to_address",
+            "rank": 1,
+            "value": "text"
+        },
+        "ALc": {
+            "caption": "Quantity",
+            "doc": "The amount of NFTs being claimed.",
+            "editor": "DynamicValue",
+            "name": "quantity",
+            "rank": 2,
+            "value": "number"
+        }
+    }
+}

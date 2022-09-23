@@ -1,0 +1,31 @@
+{
+    "caption": "Splitter - Fetch Native Balance",
+    "doc": "Fetch the network native token balance of a splitter.",
+    "fields": {
+        "AJL": {
+            "caption": "Wallet Address",
+            "doc": "This action fetches the native token balance this wallet address is owed from the splitter.",
+            "editor": "DynamicValue",
+            "name": "wallet_address",
+            "rank": 1,
+            "value": "text"
+        },
+        "AJM": {
+            "caption": "Splitter Contract Address",
+            "doc": "The smart contract address of the splitter being distributed. Please note: The user calling this function must be once the recipients of the splitter.",
+            "editor": "DynamicValue",
+            "name": "split_contract_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "AJa": {
+            "caption": "RPC URL",
+            "doc": "Choose the network is the splitter you are fetching information from is deployed on. Mainnet example: https://main-light.eth.linkpool.io",
+            "editor": "DynamicValue",
+            "name": "default_provider",
+            "options": "https://rinkeby-light.eth.linkpool.io,https://polygon-rpc.com,https://main-light.eth.linkpool.io",
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

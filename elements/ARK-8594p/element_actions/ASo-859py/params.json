@@ -1,0 +1,41 @@
+{
+    "caption": "Double ERC-20 Transfer",
+    "doc": "Send tokens to 2 addresses in 2 transactions.",
+    "fields": {
+        "ASp": {
+            "caption": "Token Address",
+            "editor": "DynamicValue",
+            "name": "token_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "ASq": {
+            "caption": "Recipient 1 Wallet",
+            "editor": "DynamicValue",
+            "name": "recipient_1_wallet",
+            "rank": 1,
+            "value": "text"
+        },
+        "ASr": {
+            "caption": "Recipient 1 Amount",
+            "editor": "DynamicValue",
+            "name": "recipient_1_amount",
+            "rank": 2,
+            "value": "number"
+        },
+        "ASs": {
+            "caption": "Recipient 2 Wallet",
+            "editor": "DynamicValue",
+            "name": "recipient_2_wallet",
+            "rank": 3,
+            "value": "text"
+        },
+        "ASt": {
+            "caption": "Recipient 2 Amount",
+            "editor": "DynamicValue",
+            "name": "recipient_2_amount",
+            "rank": 4,
+            "value": "number"
+        }
+    }
+}

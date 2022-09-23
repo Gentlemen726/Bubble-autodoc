@@ -1,0 +1,57 @@
+{
+    "category": "plugins",
+    "display": "Transfer ERC-1155 NFT",
+    "fields": {
+        "ARd": {
+            "caption": "NFT Contract Address",
+            "doc": "The ERC-1155 NFT contract address of the NFT you are transferring.",
+            "editor": "DynamicValue",
+            "name": "nft_contract_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "ARe": {
+            "caption": "RPC URL",
+            "doc": "Provide a RPC url  for the network this NFT smart contracts deployed on. Mainnet example: https://main-light.eth.linkpool.io",
+            "editor": "DynamicValue",
+            "name": "default_provider",
+            "options": "https://rinkeby-light.eth.linkpool.io,https://polygon-rpc.com,https://main-light.eth.linkpool.io",
+            "rank": 1,
+            "value": "text"
+        },
+        "ARf": {
+            "caption": "To Address",
+            "doc": "The wallet address that is receiving this NFT.",
+            "editor": "DynamicValue",
+            "name": "to_address",
+            "rank": 2,
+            "value": "text"
+        },
+        "ARg": {
+            "caption": "Token ID",
+            "doc": "The token ID of the NFT being transferred.",
+            "editor": "DynamicValue",
+            "name": "token_id",
+            "rank": 3,
+            "value": "number"
+        },
+        "ARh": {
+            "caption": "Quantity",
+            "doc": "The quantity of NFTs being transferred.",
+            "editor": "DynamicValue",
+            "name": "quantity",
+            "rank": 4,
+            "value": "number"
+        }
+    },
+    "return_value": {
+        "ARi": {
+            "caption": "Transfer Receipt",
+            "name": "payload",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

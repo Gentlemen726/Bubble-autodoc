@@ -1,0 +1,71 @@
+{
+    "caption": "Deploy ERC-721 Collection",
+    "doc": "Deploy a ERC-721 collection smart contract.",
+    "fields": {
+        "ADW": {
+            "caption": "Name",
+            "default_val": "",
+            "doc": "The name of this ERC-721 smart contract. This will be visible when viewing this NFT collection on NFT marketplaces such as OpenSea or Rarible.",
+            "editor": "DynamicValue",
+            "name": "name",
+            "rank": 0,
+            "value": "text"
+        },
+        "ADX": {
+            "caption": "Description",
+            "default_val": "This ERC-721 smart contract was deployed using The web3 toolbox created by JackMorgan.xyz",
+            "doc": "The description of this ERC-721 smart contract. This will be visible when viewing this NFT collection on NFT marketplaces such as OpenSea or Rarible. of this ERC-721 smart contract. This will only be visible when viewing this NFT collection on NFT marketplaces such as OpenSea or Rarible.",
+            "editor": "DynamicValue",
+            "name": "description",
+            "optional": false,
+            "rank": 1,
+            "value": "text"
+        },
+        "ADY": {
+            "caption": "Image",
+            "default_val": "ipfs://QmYKNg4oN9B34yiT14R6JDueNKgVTYfNuuigkJo8jj57Mk",
+            "doc": "The image of this ERC-721 smart contract. This will be visible when viewing this NFT collection on NFT marketplaces such as OpenSea or Rarible. This can be the value of a image uploader or an IPFS links formatted: ipfs://<CID>",
+            "editor": "DynamicValue",
+            "name": "image",
+            "optional": false,
+            "rank": 2,
+            "value": "text"
+        },
+        "ADZ": {
+            "caption": "Primary Sale Recipient",
+            "doc": "The wallet address that will receive the funds generated from the initial sale of NFTs minted from this smart contract. ",
+            "editor": "DynamicValue",
+            "name": "primary_sale_recipient",
+            "rank": 4,
+            "value": "text"
+        },
+        "ADa": {
+            "caption": "Royalty Fee Recipient",
+            "doc": "Optional: The wallet address that will receive the funds generated from secondary sales of NFTs minted from this smart contract.",
+            "editor": "DynamicValue",
+            "name": "royalty_fee_recipient",
+            "optional": true,
+            "rank": 5,
+            "value": "text"
+        },
+        "ADb": {
+            "caption": "Royalty Fee Percentage",
+            "doc": "Optional: The percentage in basis points of secondary sales on NFTs minted from the market place that will be sent to the royalty fee recipient.",
+            "editor": "DynamicValue",
+            "name": "royalty_fee_percentage",
+            "optional": true,
+            "rank": 6,
+            "value": "number"
+        },
+        "ADc": {
+            "caption": "Symbol",
+            "default_val": "WEB3",
+            "doc": "The symbol of this ERC-721 smart contract. This will only be visible when viewing this ERC-20 smart contract on a block explorer.",
+            "editor": "DynamicValue",
+            "name": "symbol",
+            "optional": false,
+            "rank": 3,
+            "value": "text"
+        }
+    }
+}

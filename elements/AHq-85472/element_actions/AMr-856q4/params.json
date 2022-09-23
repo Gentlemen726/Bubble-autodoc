@@ -1,0 +1,40 @@
+{
+    "caption": "DAO - Vote For Proposal",
+    "doc": "Vote on a proposal.",
+    "fields": {
+        "AMw": {
+            "caption": "Vote Type",
+            "doc": "Choose between: For, Against, Abstain.",
+            "editor": "DynamicValue",
+            "name": "vote_type",
+            "options": "For, Against, Abstain",
+            "rank": 1,
+            "value": "text"
+        },
+        "AMx": {
+            "caption": "Proposal ID",
+            "doc": "The ID of the proposal the user is voting on.",
+            "editor": "DynamicValue",
+            "name": "proposal_id",
+            "rank": 2,
+            "value": "number"
+        },
+        "AMy": {
+            "caption": "Reason",
+            "doc": "A optional reason for the vote.",
+            "editor": "DynamicValue",
+            "name": "reason",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AMz": {
+            "caption": "Vote Contract",
+            "doc": "The smart contract address of the DAO.",
+            "editor": "DynamicValue",
+            "name": "vote_contract",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "caption": "Recover Address From Signed Message",
+    "doc": "Recover a wallet address from a signature and message.",
+    "fields": {
+        "AUU": {
+            "caption": "Message",
+            "editor": "DynamicValue",
+            "name": "message",
+            "rank": 0,
+            "value": "text"
+        },
+        "AUV": {
+            "caption": "Signature",
+            "editor": "DynamicValue",
+            "name": "signature",
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}

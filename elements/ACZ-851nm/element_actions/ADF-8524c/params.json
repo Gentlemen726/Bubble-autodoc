@@ -1,0 +1,126 @@
+{
+    "caption": "Deploy Split",
+    "doc": "Deploy a Splitter smart contract.",
+    "fields": {
+        "ADG": {
+            "caption": "Wallet 1",
+            "doc": "The wallet address of the first recipient in this splitter.",
+            "editor": "DynamicValue",
+            "name": "wallet_1",
+            "rank": 4,
+            "value": "text"
+        },
+        "ADH": {
+            "caption": "Wallet 2",
+            "doc": "The wallet address of the second recipient in this splitter.",
+            "editor": "DynamicValue",
+            "name": "wallet_2",
+            "rank": 5,
+            "value": "text"
+        },
+        "ADI": {
+            "caption": "Percentage 1",
+            "doc": "The percentage of the splitter wallet 1 will receive, this is in basis points 1% is equal to 100 basis points.",
+            "editor": "DynamicValue",
+            "name": "percentage_1",
+            "rank": 9,
+            "value": "number"
+        },
+        "ADJ": {
+            "caption": "Percentage 2",
+            "doc": "The percentage of the splitter wallet 2 will receive, this is in basis points 1% is equal to 100 basis points.",
+            "editor": "DynamicValue",
+            "name": "percentage_2",
+            "rank": 10,
+            "value": "number"
+        },
+        "ADS": {
+            "caption": "Name",
+            "doc": "The name of this Splitter. This will only be visible when viewing this splitter on a block explorer.",
+            "editor": "DynamicValue",
+            "name": "name",
+            "rank": 1,
+            "value": "text"
+        },
+        "AIF": {
+            "caption": "Wallet 3",
+            "doc": "Optional: The wallet address of the third recipient in this splitter.",
+            "editor": "DynamicValue",
+            "name": "wallet_3",
+            "optional": true,
+            "rank": 6,
+            "value": "text"
+        },
+        "AIG": {
+            "caption": "Wallet 4",
+            "doc": "Optional: The wallet address of the forth recipient in this splitter.",
+            "editor": "DynamicValue",
+            "name": "wallet_4",
+            "optional": true,
+            "rank": 7,
+            "value": "text"
+        },
+        "AIH": {
+            "caption": "Wallet 5",
+            "doc": "Optional: The wallet address of the fifth recipient in this splitter.",
+            "editor": "DynamicValue",
+            "name": "wallet_5",
+            "optional": true,
+            "rank": 8,
+            "value": "text"
+        },
+        "AII": {
+            "caption": "Percentage 3",
+            "doc": "Optional: The percentage of the splitter wallet 3 will receive, this is in basis points 1% is equal to 100 basis points.",
+            "editor": "DynamicValue",
+            "name": "percentage_3",
+            "optional": true,
+            "rank": 11,
+            "value": "number"
+        },
+        "AIJ": {
+            "caption": "Percentage 4",
+            "doc": "Optional: The percentage of the splitter wallet 4 will receive, this is in basis points 1% is equal to 100 basis points.",
+            "editor": "DynamicValue",
+            "name": "percentage_4",
+            "optional": true,
+            "rank": 12,
+            "value": "number"
+        },
+        "AIK": {
+            "caption": "Percentage 5",
+            "doc": "Optional: The percentage of the splitter wallet 5 will receive, this is in basis points 1% is equal to 100 basis points.",
+            "editor": "DynamicValue",
+            "name": "percentage_5",
+            "optional": true,
+            "rank": 13,
+            "value": "number"
+        },
+        "AJC": {
+            "caption": "Description",
+            "default_val": "This Splitter was deployed using The web3 toolbox created by JackMorgan.xyz",
+            "doc": "The description of the splitter. This will only be visible when viewing this splitter on a block explorer.",
+            "editor": "DynamicValue",
+            "name": "description",
+            "optional": false,
+            "rank": 2,
+            "value": "text"
+        },
+        "AJD": {
+            "caption": "Image",
+            "default_val": "ipfs://QmYKNg4oN9B34yiT14R6JDueNKgVTYfNuuigkJo8jj57Mk",
+            "doc": "The image of the splitter. This will only be visible when viewing this splitter on a block explorer. This can be the value of a image uploader or an IPFS links formatted: ipfs://<CID>",
+            "editor": "DynamicValue",
+            "name": "image",
+            "optional": false,
+            "rank": 3,
+            "value": "text"
+        },
+        "AJb": {
+            "caption": "Important: The web3 toolbox takes a 1% cut of the splitter's total percentage amount. The total amount to be distributed between the recipients must be 99% (9900). The smart contract will fail to deploy unless the total sum percentage fields is 9900. If you only plan to use, for example, 3 wallets, make sure that field settings for recipients 4 and 5 are empty.",
+            "editor": "Label",
+            "name": "important",
+            "rank": 0
+        }
+    }
+}

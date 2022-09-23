@@ -1,0 +1,7 @@
+{
+    "dependencies": {
+        "@thirdweb-dev/sdk": "latest",
+        "ethers": "latest",
+            "node-fetch": "2.6.7"
+    }
+}

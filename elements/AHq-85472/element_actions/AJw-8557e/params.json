@@ -1,0 +1,30 @@
+{
+    "caption": "Transfer ERC-20",
+    "doc": "Transfer a ERC-20 token.",
+    "fields": {
+        "AJy": {
+            "caption": "NFT Receiver",
+            "doc": "The wallet address that will receive the tokens.",
+            "editor": "DynamicValue",
+            "name": "to_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "AJz": {
+            "caption": "Amount",
+            "doc": "The amount of tokens being transferred.",
+            "editor": "DynamicValue",
+            "name": "amount",
+            "rank": 1,
+            "value": "number"
+        },
+        "AKB": {
+            "caption": "Token Contract Address",
+            "doc": "The contract address of the tokens being transferred.",
+            "editor": "DynamicValue",
+            "name": "token_contract_address",
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

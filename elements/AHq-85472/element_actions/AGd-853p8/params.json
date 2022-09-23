@@ -1,0 +1,42 @@
+{
+    "caption": "Marketplace - Get Active Listings",
+    "doc": "Get all the active listings on a given NFT marketplace.",
+    "fields": {
+        "AGe": {
+            "caption": "Marketplace Address",
+            "doc": "The smart contract address of the NFT marketplace you are fetching the listings from.",
+            "editor": "DynamicValue",
+            "name": "marketplace_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "AGf": {
+            "caption": "NFT Contract Address",
+            "doc": "Optional: You will only be returned the listed NFTs that were minted from the NFT smart contract.",
+            "editor": "DynamicValue",
+            "name": "nft_contract_address",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AGg": {
+            "caption": "NFT Token ID",
+            "doc": "Optional: You will only be returned the listed NFTs that were minted from the NFT smart contract provided and have this Token ID.",
+            "editor": "DynamicValue",
+            "name": "nft_token_id",
+            "optional": true,
+            "rank": 2,
+            "value": "number"
+        },
+        "AIE": {
+            "caption": "RPC URL",
+            "doc": "Choose the network is the marketplace you are fetching information from is deployed on. Mainnet example: https://main-light.eth.linkpool.io",
+            "editor": "DynamicValue",
+            "name": "default_provider",
+            "optional": false,
+            "options": "https://rinkeby-light.eth.linkpool.io,https://polygon-rpc.com,https://main-light.eth.linkpool.io",
+            "rank": 3,
+            "value": "text"
+        }
+    }
+}

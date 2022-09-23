@@ -1,0 +1,54 @@
+{
+    "caption": "Marketplace - Direct List",
+    "doc": "Direct list a NFT on a given NFT marketplace.",
+    "fields": {
+        "AGR": {
+            "caption": "NFT Contract Address",
+            "doc": "The smart contract address of the NFT being listed on the marketplace.",
+            "editor": "DynamicValue",
+            "name": "nft_contract_address",
+            "rank": 1,
+            "value": "text"
+        },
+        "AGS": {
+            "caption": "Token ID",
+            "doc": "The token ID of the NFT being listed on the marketplace.",
+            "editor": "DynamicValue",
+            "name": "token_id",
+            "rank": 2,
+            "value": "number"
+        },
+        "AGU": {
+            "caption": "Sale Duration",
+            "doc": "The amount of seconds will the sale last for.",
+            "editor": "DynamicValue",
+            "name": "sale_duration",
+            "rank": 5,
+            "value": "number"
+        },
+        "AGW": {
+            "caption": "Currency Contract Address",
+            "doc": "The smart contract address of the token that will be exchanged for this NFT. For the native token address of the network you are working on please use 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee. An example of the native token of a network is ETH on the Ethereum network or MATIC on the polygon network. ",
+            "editor": "DynamicValue",
+            "name": "currency_contract_address",
+            "rank": 3,
+            "value": "text"
+        },
+        "AGX": {
+            "caption": "Buy Out Price",
+            "doc": "The quantity of the token that is required to purchase this NFT. Use a text input and convert the text to a number.",
+            "editor": "DynamicValue",
+            "name": "buy_out_price",
+            "rank": 4,
+            "value": "number"
+        },
+        "AGY": {
+            "caption": "Marketplace Contract Address",
+            "doc": "The smart contract address of the NFT marketplace the NFT is being listed on.",
+            "editor": "DynamicValue",
+            "name": "marketplace_contract_address",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

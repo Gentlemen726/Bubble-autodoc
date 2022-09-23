@@ -1,0 +1,22 @@
+{
+    "caption": "Signature Mint - Mint ERC-721 From Signature",
+    "doc": "Use a signed payload to mint a ERC-721 NFT.",
+    "fields": {
+        "AFr": {
+            "caption": "Payload",
+            "doc": "The payload generated using the Generate ERC-721 NFT Mint Signature sever side action.",
+            "editor": "DynamicValue",
+            "name": "payload",
+            "rank": 0,
+            "value": "text"
+        },
+        "AFs": {
+            "caption": "NFT Contract Address",
+            "doc": "The NFT smart contract the NFT will be signature minted from.",
+            "editor": "DynamicValue",
+            "name": "nft_contract_address",
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}

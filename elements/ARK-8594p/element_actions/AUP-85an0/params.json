@@ -1,0 +1,14 @@
+{
+    "caption": "Sign Message",
+    "doc": "Sign a message with your wallet.",
+    "fields": {
+        "AUQ": {
+            "caption": "Message",
+            "doc": "The message that will be signed by your wallet.",
+            "editor": "DynamicValue",
+            "name": "message",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

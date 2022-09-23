@@ -1,0 +1,31 @@
+{
+    "caption": "Fetch ERC-1155 Metadata",
+    "doc": "Get metadata for a ERC-1155 NFT.",
+    "fields": {
+        "AKS": {
+            "caption": "NFT Contract Address",
+            "doc": "The NFT contract address of the ERC-1155 you are fetching metadata from.",
+            "editor": "DynamicValue",
+            "name": "nft_contract_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "AKT": {
+            "caption": "Token ID",
+            "doc": "The NFT token ID of the ERC-1155 you are fetching metadata from.",
+            "editor": "DynamicValue",
+            "name": "token_id",
+            "rank": 1,
+            "value": "text"
+        },
+        "AKU": {
+            "caption": "RPC URL",
+            "doc": "Provide a RPC url for the network the NFT you are fetching information from is deployed on. Mainnet example: https://main-light.eth.linkpool.io",
+            "editor": "DynamicValue",
+            "name": "default_provider",
+            "options": "https://rinkeby-light.eth.linkpool.io,https://polygon-rpc.com,https://main-light.eth.linkpool.io",
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

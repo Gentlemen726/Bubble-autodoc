@@ -1,0 +1,76 @@
+{
+    "caption": "Deploy DAO",
+    "doc": "Deploy a on-chain voting DAO contract.",
+    "fields": {
+        "AMD": {
+            "caption": "Name",
+            "doc": "The name of this DAO smart contract.",
+            "editor": "DynamicValue",
+            "name": "name",
+            "rank": 0,
+            "value": "text"
+        },
+        "AME": {
+            "caption": "Token Address",
+            "doc": "This is the contract address of our governance token, a ERC-20 contract!",
+            "editor": "DynamicValue",
+            "name": "token_address",
+            "rank": 1,
+            "value": "text"
+        },
+        "AMF": {
+            "caption": "Voting Delay In Blocks",
+            "doc": "After a proposal is created, how many blocks until users can start voting?",
+            "editor": "DynamicValue",
+            "name": "start_delay",
+            "rank": 3,
+            "value": "number"
+        },
+        "AMG": {
+            "caption": "Voting Period In Blocks",
+            "doc": "1 day = 6570 blocks, 1 week = 45992 blocks. How many blocks do members have to vote on a proposal after it's created?",
+            "editor": "DynamicValue",
+            "name": "voting_blocks",
+            "rank": 4,
+            "value": "number"
+        },
+        "AMH": {
+            "caption": "Voting Quorum Fraction",
+            "doc": "The minimum % of the total supply that need to vote for the proposal to be valid after the time for the proposal has ended.",
+            "editor": "DynamicValue",
+            "name": "min_voters",
+            "rank": 5,
+            "value": "number"
+        },
+        "AMI": {
+            "caption": "Proposal Token Threshold",
+            "doc": "What's the minimum # of governance tokens a user needs to be allowed to create a proposal?",
+            "editor": "DynamicValue",
+            "name": "min_tokens",
+            "rank": 6,
+            "value": "number"
+        },
+        "AMJ": {
+            "caption": "The following parameters are specified in number of blocks, assuming a block time of around 13.14 seconds for Ethereum.",
+            "editor": "Label",
+            "name": "info",
+            "rank": 2
+        },
+        "ANM": {
+            "caption": "description",
+            "doc": "The description of this DAO.",
+            "editor": "DynamicValue",
+            "name": "description",
+            "rank": 7,
+            "value": "text"
+        },
+        "ANN": {
+            "caption": "Image",
+            "doc": "The image of this DAO smart contract. This will only be visible when viewing this DAO smart contract on a block explorer.",
+            "editor": "DynamicValue",
+            "name": "image",
+            "rank": 8,
+            "value": "image"
+        }
+    }
+}

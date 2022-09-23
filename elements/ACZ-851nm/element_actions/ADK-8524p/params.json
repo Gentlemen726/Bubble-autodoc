@@ -1,0 +1,48 @@
+{
+    "caption": "Deploy ERC-20 smart contract",
+    "doc": "Deploy a ERC-20 token smart contract.",
+    "fields": {
+        "ADL": {
+            "caption": "Name",
+            "doc": "The name of this ERC-20 smart contract. This will only be visible when viewing this splitter on a block explorer.",
+            "editor": "DynamicValue",
+            "name": "name",
+            "rank": 0,
+            "value": "text"
+        },
+        "ADM": {
+            "caption": "Primary Sale Recipient",
+            "doc": "The wallet address that will receive the funds when these tokens are sold.",
+            "editor": "DynamicValue",
+            "name": "primary_sale_recipient",
+            "rank": 3,
+            "value": "text"
+        },
+        "ADN": {
+            "caption": "Symbol",
+            "doc": "The symbol of this ERC-20 smart contract. This will only be visible when viewing this ERC-20 smart contract on a block explorer.",
+            "editor": "DynamicValue",
+            "name": "symbol",
+            "rank": 4,
+            "value": "text"
+        },
+        "AIj": {
+            "caption": "Image",
+            "default_val": "ipfs://QmYKNg4oN9B34yiT14R6JDueNKgVTYfNuuigkJo8jj57Mk",
+            "doc": "The image of this ERC-20. This will only be visible when viewing this ERC-20 smart contract on a block explorer. This can be the value of a image uploader or an IPFS links formatted: ipfs://<CID>",
+            "editor": "DynamicValue",
+            "name": "image",
+            "rank": 2,
+            "value": "text"
+        },
+        "AIk": {
+            "caption": "Description",
+            "default_val": "This ERC-20 token was deployed using The web3 toolbox created by JackMorgan.xyz",
+            "doc": "The description of the ERC-20. This will only be visible when viewing this splitter on a block explorer.",
+            "editor": "DynamicValue",
+            "name": "description",
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}

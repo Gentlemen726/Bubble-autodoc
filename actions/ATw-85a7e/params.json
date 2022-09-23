@@ -1,0 +1,48 @@
+{
+    "category": "plugins",
+    "display": "Send ERC-20 Token",
+    "fields": {
+        "ATy": {
+            "caption": "Token Address",
+            "doc": "The token contract address of the token being sent.",
+            "editor": "DynamicValue",
+            "name": "token_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "ATz": {
+            "caption": "RPC URL",
+            "doc": "Provide a RPC url  for the network this NFT smart contracts deployed on. Mainnet example: https://main-light.eth.linkpool.io",
+            "editor": "DynamicValue",
+            "name": "default_provider",
+            "rank": 1,
+            "value": "text"
+        },
+        "AUA": {
+            "caption": "To Address",
+            "doc": "The address that will receive the tokens.",
+            "editor": "DynamicValue",
+            "name": "to_address",
+            "rank": 2,
+            "value": "text"
+        },
+        "AUB": {
+            "caption": "Amount",
+            "doc": "The amount of the token being sent. 1 = 1 ETH.",
+            "editor": "DynamicValue",
+            "name": "amount",
+            "rank": 3,
+            "value": "number"
+        }
+    },
+    "return_value": {
+        "ATx": {
+            "caption": "Transaction Hash",
+            "name": "payload",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

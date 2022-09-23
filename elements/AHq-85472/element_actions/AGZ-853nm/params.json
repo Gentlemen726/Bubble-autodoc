@@ -1,0 +1,31 @@
+{
+    "caption": "Marketplace - Buy Direct Listing",
+    "doc": "Buy a direct listing on a given NFT marketplace.",
+    "fields": {
+        "AGa": {
+            "caption": "Listing ID",
+            "doc": "The listing ID of the NFT listed on a given NT marketplace. This can be returned using the \"Get Active Listings\" action, Alternatively when a NFT is listed on a marketplace you can save the listing ID returned in the database somewhere.",
+            "editor": "DynamicValue",
+            "name": "listing_id",
+            "rank": 1,
+            "value": "number"
+        },
+        "AGb": {
+            "caption": "Quantity",
+            "doc": "This only applies to buying ERC-1155 NFTs with a supply greater than 1..",
+            "editor": "DynamicValue",
+            "name": "quantity",
+            "optional": true,
+            "rank": 2,
+            "value": "number"
+        },
+        "AGc": {
+            "caption": "Marketplace Contract Address",
+            "doc": "The marketplace smart contract address the NFT is listed on.",
+            "editor": "DynamicValue",
+            "name": "marketplace_contract_address",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "caption": "Send A Split TX",
+    "doc": "Send tokens to 2 addresses in 1 transaction.",
+    "fields": {
+        "ASe": {
+            "caption": "Recipient 1 Wallet",
+            "doc": "Recipient 1's wallet address.",
+            "editor": "DynamicValue",
+            "name": "recipient_1_wallet",
+            "rank": 1,
+            "value": "text"
+        },
+        "ASf": {
+            "caption": "Recipient 2 Wallet",
+            "doc": "Recipient 2's wallet address.",
+            "editor": "DynamicValue",
+            "name": "recipient_2_wallet",
+            "rank": 3,
+            "value": "text"
+        },
+        "ASg": {
+            "caption": "Recipient 1 Amount",
+            "doc": "The amount of tokens being sent to recipient 1.",
+            "editor": "DynamicValue",
+            "name": "recipient_1_amount",
+            "rank": 2,
+            "value": "number"
+        },
+        "ASh": {
+            "caption": "Recipient 2 Amount",
+            "doc": "The amount of tokens being sent to recipient 2.",
+            "editor": "DynamicValue",
+            "name": "recipient_2_amount",
+            "rank": 4,
+            "value": "number"
+        },
+        "ASi": {
+            "caption": "Token Address",
+            "doc": "The smart contract address of the token being sent.",
+            "editor": "DynamicValue",
+            "name": "token_address",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

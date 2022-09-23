@@ -1,0 +1,26 @@
+{
+    "assets": {
+        "AMB": {
+            "name": "newSDK",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1654254411022x782023181401337200/thirdweb-ethers%28final%29.js"
+        },
+        "ASn": {
+            "name": "@thirdweb-dev/sdk version 2.3.32",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1659617490715x213539811072658530/thirdwebsdkNethers.min.js"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": "3",
+        "use_jquery": false
+    },
+    "shared_keys": {
+        "APn": {
+            "caption": "paper_api_key",
+            "type": "secure"
+        },
+        "APq": {
+            "caption": "private_key",
+            "type": "secure"
+        }
+    }
+}

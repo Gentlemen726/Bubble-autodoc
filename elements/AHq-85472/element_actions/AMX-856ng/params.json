@@ -1,0 +1,30 @@
+{
+    "caption": "DAO - Create Mint Proposal To DAO Treasury",
+    "doc": "Create a proposal to mint a new batch of tokens to the DAO treasury.",
+    "fields": {
+        "AMc": {
+            "caption": "DAO Address",
+            "doc": "The contract address of the DAO being proposed to.",
+            "editor": "DynamicValue",
+            "name": "dao_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "AMe": {
+            "caption": "Token Address",
+            "doc": "The ERC-20 governance token contract address that is being proposed to mint.",
+            "editor": "DynamicValue",
+            "name": "token_address",
+            "rank": 1,
+            "value": "text"
+        },
+        "AMg": {
+            "caption": "Amount Of Tokens",
+            "doc": "The amount of the governance token we are wanting to mint.",
+            "editor": "DynamicValue",
+            "name": "amount",
+            "rank": 2,
+            "value": "number"
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "caption": "Token Drop - Set Claim Conditions",
+    "doc": "Set Token Drop Claim Conditions.",
+    "fields": {
+        "AKx": {
+            "caption": "Token Drop Contract Address",
+            "doc": "The token drop smart contract address.",
+            "editor": "DynamicValue",
+            "name": "token_drop_contract",
+            "rank": 0,
+            "value": "text"
+        },
+        "AKy": {
+            "caption": "Presale Start ",
+            "doc": "Use a date and time picker to allow the user to choose when the presale will start.",
+            "editor": "DynamicValue",
+            "name": "hours_until_presale",
+            "optional": true,
+            "rank": 3,
+            "value": "date"
+        },
+        "AKz": {
+            "caption": "Public Sale Start",
+            "doc": "Use a date and time picker to allow the user to choose when the public sale will start. The presale will automatically end when the public starts.",
+            "editor": "DynamicValue",
+            "name": "hours_until_public_sale",
+            "rank": 6,
+            "value": "date"
+        },
+        "ALA": {
+            "caption": "Whitelist Addresses",
+            "doc": "Please pass in a list of texts from your database, each text will be a wallet address.",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "whitelist",
+            "optional": true,
+            "rank": 9,
+            "value": "text"
+        },
+        "ALB": {
+            "caption": "Public Sale Price",
+            "doc": "The price per token during the public sale phase.",
+            "editor": "DynamicValue",
+            "name": "public_sale_price",
+            "rank": 7,
+            "value": "number"
+        },
+        "ALC": {
+            "caption": "Presale Price",
+            "doc": "The price per token during the presale phase.",
+            "editor": "DynamicValue",
+            "name": "presale_price",
+            "rank": 4,
+            "value": "number"
+        },
+        "ALD": {
+            "caption": "Presale Quantity",
+            "doc": "The total amount token that can be claimed by everyone participating in the token drop presale.",
+            "editor": "DynamicValue",
+            "name": "presale_quantity",
+            "rank": 5,
+            "value": "number"
+        },
+        "ALI": {
+            "caption": "Currency",
+            "doc": "The contract address that the token that will be used to claim this token.",
+            "editor": "DynamicValue",
+            "name": "currency",
+            "rank": 10,
+            "value": "text"
+        },
+        "ATn": {
+            "caption": "Public Sale Quantity",
+            "doc": "The total amount token that can be claimed by everyone participating in the token drop public sale.",
+            "editor": "DynamicValue",
+            "name": "public_quantity",
+            "rank": 8,
+            "value": "number"
+        },
+        "ATo": {
+            "caption": "Whitelist",
+            "doc": "If presale is checked yes and whitelist is checked yes, the whitelist will be active for the presale. If presale is checked no and whitelist is checked yes the whitelist will be active for the public sale.",
+            "editor": "DynamicValue",
+            "name": "whitelist_y_n",
+            "rank": 2,
+            "value": "boolean"
+        },
+        "ATp": {
+            "caption": "Presale",
+            "doc": "Yes, to have a presale phase before your public mint. ",
+            "editor": "DynamicValue",
+            "name": "presale",
+            "rank": 1,
+            "value": "boolean"
+        }
+    }
+}

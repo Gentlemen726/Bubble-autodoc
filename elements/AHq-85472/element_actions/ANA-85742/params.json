@@ -1,0 +1,22 @@
+{
+    "caption": "DAO - Execute Proposal",
+    "doc": "Execute the action of a proposal once its been voted on.",
+    "fields": {
+        "ANF": {
+            "caption": "Proposal ID",
+            "doc": "The proposal ID being executed.",
+            "editor": "DynamicValue",
+            "name": "proposal_id",
+            "rank": 0,
+            "value": "text"
+        },
+        "ANG": {
+            "caption": "DAO Contract Address",
+            "doc": "The smart contract address of the DAO.",
+            "editor": "DynamicValue",
+            "name": "vote_contract",
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}

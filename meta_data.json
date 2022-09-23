@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "technical"
+    },
+    "demo_page": "theweb3toolbox.com",
+    "description": "The Web3 Toolbox is made for easy integration with Bubble. Our plug-in offers you a selection of audited smart contracts, so you can easily deploy and interact with NFTs and cryptocurrency in your DAPPS. With this plug-in, you don't have to know how to code solidity or javascript. We do that for you. Just drag and drop smart contracts directly into your Bubble app!\n\nPlease note: You do not have to provide your private key to use any element actions. Server side actions will require your private key to be supplied below. By using this product you take full responsibility for keeping your private key secure. If anyone gets access to your Bubble editor and can see your private key you will lose all of your funds, please be extremely careful.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDEMO PAGES\n\nhttps://theweb3toolbox.com\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nFOR ALL QUESTIONS JOIN OUR DISCORD!\n\nhttps://discord.com/invite/xcz9ajX8NF\n\nEmail: contact@jackmorgan.xyz",
+    "image": "//s3.amazonaws.com/appforest_uf/f1661898770799x434549060410040100/WEB3%20TOOLBOX.svg",
+    "license": "open_source",
+    "link": "https://theweb3toolbox.com",
+    "name": "The Web3 Toolbox",
+    "plugin_instructions": "Please view the service URL for the complete project demo showing you how to deploy and interact with smart contracts we offer."
+}

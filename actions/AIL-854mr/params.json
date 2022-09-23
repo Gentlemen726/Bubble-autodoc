@@ -1,0 +1,113 @@
+{
+    "category": "plugins",
+    "display": "Generate ERC-721 NFT Mint Signature",
+    "fields": {
+        "AIN": {
+            "caption": "Default Provider",
+            "doc": "Provide a RPC url for the NFT smart contract you are minting from is on. Mainnet example: https://main-light.eth.linkpool.io",
+            "editor": "DynamicValue",
+            "name": "default_provider",
+            "options": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161,https://polygon-rpc.com,https://main-light.eth.linkpool.io",
+            "rank": 0,
+            "value": "text"
+        },
+        "AIO": {
+            "caption": "Name",
+            "doc": "The name of the NFT being minted.",
+            "editor": "DynamicValue",
+            "name": "name",
+            "rank": 1,
+            "value": "text"
+        },
+        "AIP": {
+            "caption": "Description",
+            "doc": "The description of the NFT being minted.",
+            "editor": "DynamicValue",
+            "name": "description",
+            "rank": 2,
+            "value": "text"
+        },
+        "AIQ": {
+            "caption": "Image",
+            "doc": "The image of the NFT being minted.",
+            "editor": "DynamicValue",
+            "name": "image",
+            "rank": 3,
+            "value": "text"
+        },
+        "AIR": {
+            "caption": "NFT Receiver",
+            "doc": "The address of the wallet who can mint this NFT. If you want any address to be able to mint this NFT use: 0x0000000000000000000000000000000000000000",
+            "editor": "DynamicValue",
+            "name": "nft_receiver",
+            "rank": 5,
+            "value": "text"
+        },
+        "AIS": {
+            "caption": "Price",
+            "doc": "The price the minter must pay in order to mint the NFT.",
+            "editor": "DynamicValue",
+            "name": "price",
+            "rank": 7,
+            "value": "number"
+        },
+        "AIT": {
+            "caption": "Royalty Recipient",
+            "doc": "The wallet that will receive the royalties generated from this NFT.",
+            "editor": "DynamicValue",
+            "name": "royalty_recipient",
+            "rank": 9,
+            "value": "text"
+        },
+        "AIU": {
+            "caption": "Royalty Percentage",
+            "doc": "The percentage of each secondary sale of this NFT that will be sent to the Royalty Recipient. ",
+            "editor": "DynamicValue",
+            "name": "royalty_percentage",
+            "rank": 10,
+            "value": "number"
+        },
+        "AIV": {
+            "caption": "Primary Sale Recipient",
+            "doc": "The wallet that will receive the funds generated from the initial sale of this NFT.",
+            "editor": "DynamicValue",
+            "name": "primary_sale_recipient",
+            "rank": 6,
+            "value": "text"
+        },
+        "AIW": {
+            "caption": "Currency Address",
+            "doc": "The currency that the minter will be charged to mint the NFT. For the network native token use:  0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "editor": "DynamicValue",
+            "name": "currency_address",
+            "rank": 8,
+            "value": "text"
+        },
+        "AIX": {
+            "caption": "ERC-721 NFT Contract Address",
+            "doc": "The ERC-721 NFT smart contract that this NFT will be minted from. Make sure your signing private key has minting permission on the NFT smart contract.",
+            "editor": "DynamicValue",
+            "name": "nft_contract_address",
+            "rank": 4,
+            "value": "text"
+        },
+        "AIa": {
+            "caption": "Days Valid",
+            "doc": "How many days will this signature be valid for.",
+            "editor": "DynamicValue",
+            "name": "days_valid",
+            "rank": 11,
+            "value": "number"
+        }
+    },
+    "return_value": {
+        "AId": {
+            "caption": "Payload",
+            "name": "payload",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

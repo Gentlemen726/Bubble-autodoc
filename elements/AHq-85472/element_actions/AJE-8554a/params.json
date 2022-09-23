@@ -1,0 +1,14 @@
+{
+    "caption": "Splitter - Distribute",
+    "doc": "Distribute the balance of Splitter.",
+    "fields": {
+        "AJF": {
+            "caption": "Split Contract Address",
+            "doc": "The smart contract address of the Splitter being distributed. Please note: The user calling this function must be once the recipients of the splitter. ",
+            "editor": "DynamicValue",
+            "name": "split_contract_address",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

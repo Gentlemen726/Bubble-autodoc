@@ -1,0 +1,22 @@
+{
+    "caption": "Send Transaction",
+    "doc": "Send a raw transaction object to the blockchain.",
+    "fields": {
+        "ATl": {
+            "caption": "JSON Object",
+            "default_val": "{ \"to\" : \"0x98Fd17F691686Fef33C0882Fc5E1FD13AF6F014E\",   \"value\" : \"1000000000000000000\"  }",
+            "doc": "The JSON object that will be passed into the send transaction method. Do not wrap your JSON object in \" \".",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "object",
+            "rank": 1,
+            "value": "text"
+        },
+        "ATu": {
+            "caption": "Below is an example of sending 1 ETH to an address.",
+            "editor": "Label",
+            "name": "info",
+            "rank": 0
+        }
+    }
+}

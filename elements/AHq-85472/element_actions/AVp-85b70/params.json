@@ -1,0 +1,22 @@
+{
+    "caption": "Signature Mint - Mint ERC-20 From Signature",
+    "doc": "Use a signed payload to mint ERC-20 tokens.",
+    "fields": {
+        "AVq": {
+            "caption": "payload",
+            "doc": "The payload generated using the Generate ERC-20 Mint Signature sever side action.",
+            "editor": "DynamicValue",
+            "name": "payload",
+            "rank": 0,
+            "value": "text"
+        },
+        "AVr": {
+            "caption": "Contract Address",
+            "doc": "The ERC-20 smart contract the tokens will be signature minted from.",
+            "editor": "DynamicValue",
+            "name": "token_contract_address",
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}

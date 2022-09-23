@@ -1,0 +1,30 @@
+{
+    "caption": "General - Revoke Role",
+    "doc": "Revoke an admin or minter role on a smart contract.",
+    "fields": {
+        "AUl": {
+            "caption": "Role",
+            "doc": "Admin can grant and revoke roles on this smart contract. Minter can mint tokens from ERC-721, ERC-1155 and ERC-20 smart contracts at will.",
+            "editor": "Dropdown",
+            "name": "role",
+            "options": "admin,minter",
+            "rank": 0
+        },
+        "AUm": {
+            "caption": "Contract Address",
+            "doc": "The smart contract the wallet address is being granted a role on.",
+            "editor": "DynamicValue",
+            "name": "smart_contract_address",
+            "rank": 1,
+            "value": "text"
+        },
+        "AUn": {
+            "caption": "Wallet Address",
+            "doc": "The wallet address that a role is being granted too.",
+            "editor": "DynamicValue",
+            "name": "wallet_address",
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

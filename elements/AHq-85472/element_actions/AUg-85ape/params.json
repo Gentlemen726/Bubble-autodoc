@@ -1,0 +1,30 @@
+{
+    "caption": "General - Grant Role",
+    "doc": "Grant an admin or minter role on a smart contract.",
+    "fields": {
+        "AUh": {
+            "caption": "Role",
+            "doc": "Admin can grant and revoke roles on this smart contract. Minter can mint tokens from ERC-721, ERC-1155 and ERC-20 smart contracts at will.",
+            "editor": "Dropdown",
+            "name": "role",
+            "options": "admin,minter",
+            "rank": 0
+        },
+        "AUi": {
+            "caption": "Contract Address",
+            "doc": "The smart contract the wallet address is being granted a role on.",
+            "editor": "DynamicValue",
+            "name": "smart_contract_address",
+            "rank": 1,
+            "value": "text"
+        },
+        "AUj": {
+            "caption": "Wallet Address",
+            "doc": "The wallet address that a role is being granted too.",
+            "editor": "DynamicValue",
+            "name": "wallet_address",
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

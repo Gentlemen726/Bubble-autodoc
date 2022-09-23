@@ -1,0 +1,247 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "Deploy Smart Contracts",
+    "events": {
+        "ADO": {
+            "caption": "ERC-20 Collection Contract Deployed",
+            "doc": "A ERC-20 smart contract was deployed.",
+            "name": "token_contract_deployed"
+        },
+        "ADP": {
+            "caption": "Split Contract Deployed",
+            "doc": "A Splitter smart contract was deployed.",
+            "name": "split_contract_deployed"
+        },
+        "ADU": {
+            "caption": "ERC-721 Collection Contract Deployed",
+            "doc": "A ERC-721 collection smart contract was deployed.",
+            "name": "nft_collection_contract_deployed"
+        },
+        "ADe": {
+            "caption": "Marketplace Contract Deployed",
+            "doc": "A Marketplace smart contract was deployed.",
+            "name": "marketplace_contract_deployed"
+        },
+        "AEe": {
+            "caption": "ERC-1155 Collection Contract Deployed",
+            "doc": "A ERC-1155 collection smart contract was deployed.",
+            "name": "edition_contract_deployed"
+        },
+        "AEy": {
+            "caption": "ERC-1155 Collection Deployment Error",
+            "doc": "An error occurred while deploying a ERC-1155 collection smart contract.",
+            "name": "edition_deployment_error"
+        },
+        "AHv": {
+            "caption": "ERC-721 Collection Deployment Error",
+            "doc": "An error occurred while deploying a ERC-721 collection smart contract.",
+            "name": "nft_collection_deployment_error"
+        },
+        "AHw": {
+            "caption": "ERC-20 Collection Deployment Error",
+            "doc": "An error occurred while deploying a ERC-20 smart contract.",
+            "name": "token_deployment_error"
+        },
+        "AHx": {
+            "caption": "Splitter Deployment Error",
+            "doc": "An error occurred while deploying a Splitter smart. contract",
+            "name": "split_deployment_error"
+        },
+        "AHy": {
+            "caption": "Marketplace Deployment Error",
+            "doc": "An error occurred while deploying a Marketplace smart contract.",
+            "name": "marketplace_deployment_error"
+        },
+        "AKg": {
+            "caption": "ERC-20 Drop Deployment Error",
+            "doc": "An error occurred while deploying a ERC-20 drop smart contract.",
+            "name": "token_drop_deployment_error"
+        },
+        "AKi": {
+            "caption": "ERC-20 Drop Contract Deployed",
+            "doc": "A ERC-20 drop smart contract was deployed.",
+            "name": "token_drop_contract_deployed"
+        },
+        "AKs": {
+            "caption": "NFT Drop Deployment Error",
+            "doc": "An error occurred while deploying a ERC-721 drop smart contract.",
+            "name": "nft_drop_deployment_error"
+        },
+        "AKv": {
+            "caption": "NFT Drop Contract Deployed",
+            "doc": "A ERC-721 drop smart contract was deployed.",
+            "name": "nft_drop_contract_deployed"
+        },
+        "AMM": {
+            "caption": "DAO Deployment Error",
+            "doc": "An error occurred while deploying a vote smart contract.",
+            "name": "vote_deployment_error"
+        },
+        "AMN": {
+            "caption": "DAO Contract Deployed",
+            "doc": "A vote smart contract was deployed.",
+            "name": "vote_contract_deployed"
+        }
+    },
+    "icon": "ion-cube",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "Font": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": false
+    },
+    "states": {
+        "ADQ": {
+            "caption": "ERC-20 Token Contract Address",
+            "doc": "The smart contract address of the deployed ERC-20 smart contract.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "token_contract_address",
+            "value": "text"
+        },
+        "ADR": {
+            "caption": "Splitter Contract Address",
+            "doc": "The smart contract address of the deployed Splitter smart contract.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "split_contract_address",
+            "value": "text"
+        },
+        "ADT": {
+            "caption": "ERC-721 Collection Contract Address",
+            "doc": "The smart contract address of the deployed ERC-721 collection smart contract.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "nft_collection_contract_address",
+            "value": "text"
+        },
+        "ADg": {
+            "caption": "Marketplace Contract Address",
+            "doc": "The smart contract address of the deployed Marketplace smart contract.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "marketplace_contract_address",
+            "value": "text"
+        },
+        "AEf": {
+            "caption": "ERC-1155 Collection Contract Address",
+            "doc": "The smart contract address of the deployed ERC-1155 collection smart contract.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "edition_contract_address",
+            "value": "text"
+        },
+        "AEw": {
+            "caption": "ERC-1155 Collection Deployment Error",
+            "doc": "The error that occurred when deploying a ERC-1155 collection smart contract.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "edition_deployment_error",
+            "value": "text"
+        },
+        "AHr": {
+            "caption": "Marketplace Deployment Error",
+            "doc": "The error that occurred when deploying a Marketplace smart contract.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "marketplace_deployment_error",
+            "value": "text"
+        },
+        "AHs": {
+            "caption": "ERC-721 Collection Deployment Error",
+            "doc": "The error that occurred when deploying a ERC-721 collection smart contract.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "nft_collection_deployment_error",
+            "value": "text"
+        },
+        "AHt": {
+            "caption": "Split Deployment Error",
+            "doc": "The error that occurred when deploying a Splitter smart contract.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "split_deployment_error",
+            "value": "text"
+        },
+        "AHu": {
+            "caption": "ERC-20 Token Deployment Error",
+            "doc": "The error that occurred when deploying a ERC-20 smart contract.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "token_deployment_error",
+            "value": "text"
+        },
+        "AKh": {
+            "caption": "Token Drop Deployment Error",
+            "doc": "The error that occurred when deploying a ERC-20 drop smart contract.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "token_drop_deployment_error",
+            "value": "text"
+        },
+        "AKj": {
+            "caption": "Token Drop Contract Address",
+            "doc": "The smart contract address of the deployed ERC-20 drop smart contract.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "token_drop_contract_address",
+            "value": "text"
+        },
+        "AKt": {
+            "caption": "NFT Drop Deployment Error",
+            "doc": "The error that occurred when deploying a ERC-721 drop smart contract.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "nft_drop_deployment_error",
+            "value": "text"
+        },
+        "AKu": {
+            "caption": "NFT Drop Contract Address",
+            "doc": "The smart contract address of the deployed ERC-721 drop smart contract.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "nft_drop_contract_address",
+            "value": "text"
+        },
+        "AMK": {
+            "caption": "DAO Contract Address",
+            "doc": "The smart contract address of the deployed vote contract.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "vote_contract_address",
+            "value": "text"
+        },
+        "AML": {
+            "caption": "DAO Deployment Error",
+            "doc": "The error that occurred when deploying a on-chain voting contract.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "vote_deployment_error",
+            "value": "text"
+        }
+    }
+}

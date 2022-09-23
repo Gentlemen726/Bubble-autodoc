@@ -1,0 +1,30 @@
+{
+    "caption": "Transfer ERC-721",
+    "doc": "Transfer a ERC-721 NFT.",
+    "fields": {
+        "AJp": {
+            "caption": "Token ID",
+            "doc": "The token ID of the NFT being sent.",
+            "editor": "DynamicValue",
+            "name": "token_id",
+            "rank": 0,
+            "value": "number"
+        },
+        "AJq": {
+            "caption": "NFT Receiver",
+            "doc": "The wallet address that is receiving the NFT.",
+            "editor": "DynamicValue",
+            "name": "to_address",
+            "rank": 1,
+            "value": "text"
+        },
+        "AJr": {
+            "caption": "NFT Contract Address",
+            "doc": "The contract address of the NFT being sent.",
+            "editor": "DynamicValue",
+            "name": "nft_contract_address",
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

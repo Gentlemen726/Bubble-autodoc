@@ -1,0 +1,38 @@
+{
+    "caption": "Transfer ERC-1155",
+    "doc": "Transfer a ERC-1155 NFT.",
+    "fields": {
+        "AHE": {
+            "caption": "NFT Receiver",
+            "doc": "The wallet address that will receive the ERC-1155 NFT.",
+            "editor": "DynamicValue",
+            "name": "to_address",
+            "rank": 1,
+            "value": "text"
+        },
+        "AHF": {
+            "caption": "Token ID",
+            "doc": "The token ID of the NFT being transferred.",
+            "editor": "DynamicValue",
+            "name": "token_id",
+            "rank": 2,
+            "value": "number"
+        },
+        "AHG": {
+            "caption": "NFT Contract Address",
+            "doc": "The NFT smart contract address of the NFT being tranferred.",
+            "editor": "DynamicValue",
+            "name": "nft_contract_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "AHH": {
+            "caption": "Quantity",
+            "doc": "The quantity of the NFTs being transferred.",
+            "editor": "DynamicValue",
+            "name": "quantity",
+            "rank": 3,
+            "value": "number"
+        }
+    }
+}

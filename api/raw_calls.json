@@ -1,0 +1,74 @@
+{
+    "calls": {
+        "ASO": {
+            "initialized": true,
+            "method": "get",
+            "name": "Get Swap",
+            "params": {
+                "ASP": {
+                    "key": "sellTokenAddress",
+                    "private": true,
+                    "value": "0x0000000000000000000000000000000000000000"
+                },
+                "ASQ": {
+                    "key": "buyTokenAddress",
+                    "private": true,
+                    "value": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+                },
+                "ASR": {
+                    "key": "sellAmount",
+                    "private": true,
+                    "value": "10"
+                },
+                "ASS": {
+                    "key": "network",
+                    "private": true,
+                    "value": "polygon"
+                }
+            },
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1645718276515x670053417311797200.plugin_api.ASO",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ASO\":{\"caption\":\"Get Swap\",\"fields\":{\"_p_price\":{\"ret_value\":\"text\",\"caption\":\"price\",\"sample_value\":\"100000000000\",\"path\":[\"price\"]},\"_p_data\":{\"ret_value\":\"text\",\"caption\":\"data\",\"sample_value\":\"0x415565b0000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000000000000002791bca1f2de4661ed88a30c99a7a9449aa84174000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000040000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000009000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000002a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000d500b1d8e8ef31e21c99d1db9a6444d3adf12700000000000000000000000002791bca1f2de4661ed88a30c99a7a9449aa841740000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000026000000000000000000000000000000000000000000000000000000000000002600000000000000000000000000000000000000000000000000000000000000240000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000b446f646f563200000000000000000000000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000004000000000000000000000000010dd6d8a29d489bede472cc1b22dc695c144c5c70000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000d500b1d8e8ef31e21c99d1db9a6444d3adf1270000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000000000000000000000000000000000000000000000000000000869584cd0000000000000000000000003ce37278de6388532c3949ce4e886f365b14fb56000000000000000000000000000000000000000000000044b329239562dec81f\",\"path\":[\"data\"]},\"_p_to\":{\"ret_value\":\"text\",\"caption\":\"to\",\"sample_value\":\"0xdef1c0ded9bec7f1a1670819833240f027b25eff\",\"path\":[\"to\"]},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"10\",\"path\":[\"value\"]},\"_p_estimatedGas\":{\"ret_value\":\"text\",\"caption\":\"estimatedGas\",\"sample_value\":\"275000\",\"path\":[\"estimatedGas\"]},\"_p_gasPrice\":{\"ret_value\":\"text\",\"caption\":\"gasPrice\",\"sample_value\":\"32000000000\",\"path\":[\"gasPrice\"]},\"_p_buyTokenAddress\":{\"ret_value\":\"text\",\"caption\":\"buyTokenAddress\",\"sample_value\":\"0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174\",\"path\":[\"buyTokenAddress\"]},\"_p_sellTokenAddress\":{\"ret_value\":\"text\",\"caption\":\"sellTokenAddress\",\"sample_value\":\"0x0000000000000000000000000000000000000000\",\"path\":[\"sellTokenAddress\"]},\"_p_buyAmount\":{\"ret_value\":\"text\",\"caption\":\"buyAmount\",\"sample_value\":\"1\",\"path\":[\"buyAmount\"]},\"_p_sellAmount\":{\"ret_value\":\"text\",\"caption\":\"sellAmount\",\"sample_value\":\"10\",\"path\":[\"sellAmount\"]},\"_p_allowanceTarget\":{\"ret_value\":\"text\",\"caption\":\"allowanceTarget\",\"sample_value\":\"0x0000000000000000000000000000000000000000\",\"path\":[\"allowanceTarget\"]},\"_p_sources\":{\"ret_value\":\"list.api.1645718276515x670053417311797200.plugin_api.ASO.sources\",\"caption\":\"sources\",\"path\":[\"sources\"]},\"_p_gas\":{\"ret_value\":\"text\",\"caption\":\"gas\",\"sample_value\":\"275000\",\"path\":[\"gas\"]}}},\"plugin_api.ASO.sources\":{\"caption\":\"Get Swap source\",\"fields\":{\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"DODO_V2\",\"path\":[\"name\"]},\"_p_proportion\":{\"ret_value\":\"number\",\"caption\":\"proportion\",\"sample_value\":1,\"path\":[\"proportion\"]},\"_p_displayName\":{\"ret_value\":\"text\",\"caption\":\"displayName\",\"sample_value\":\"DODO V2\",\"path\":[\"displayName\"]},\"_p_symbol\":{\"ret_value\":\"text\",\"caption\":\"symbol\",\"sample_value\":\"dodo\",\"path\":[\"symbol\"]}}}}",
+            "url": "https://api.zapper.fi/v2/exchange/quote"
+        },
+        "ASV": {
+            "data_type": "JSON",
+            "initialized": true,
+            "method": "get",
+            "name": "Get Balances",
+            "no_types": true,
+            "params": {
+                "ASW": {
+                    "key": "addresses[]",
+                    "private": true,
+                    "value": "0xeA2899E9CaeB476668A3762f775bA24e661F83fc"
+                },
+                "ASX": {
+                    "key": "networks[]",
+                    "private": true,
+                    "value": "polygon"
+                }
+            },
+            "publish_as": "data",
+            "rank": 1,
+            "should_reinitialize": true,
+            "url": "https://api.zapper.fi/v2/balances"
+        }
+    },
+    "human": "Zapper",
+    "shared_headers": {
+        "AST": {
+            "key": "accept",
+            "private": true,
+            "value": "*/*"
+        },
+        "ASU": {
+            "key": "Authorization",
+            "private": true,
+            "value": "Basic ZjA5MzEwMWYtNDU5OC00YWM0LThkMDctNDgzNGU4NDBiZjUwOg==",
+            "visibility": "hidden"
+        }
+    }
+}

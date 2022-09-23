@@ -1,0 +1,193 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "Wallet Actions",
+    "events": {
+        "ARQ": {
+            "caption": "Wallet Connected",
+            "doc": "A wallet was connected.",
+            "name": "wallet_connected"
+        },
+        "ASa": {
+            "caption": "Wallet Disconnected",
+            "doc": "A wallet was disconnected.",
+            "name": "wallet_disconnected"
+        },
+        "ASl": {
+            "caption": "Split Transfer Executed",
+            "doc": "A split transfer was executed successfully. ",
+            "name": "split_transfer_executed"
+        },
+        "ASm": {
+            "caption": "Split Transfer Execute Error",
+            "doc": "A error occurred while executing a split transfer.",
+            "name": "split_transfer_execute_error"
+        },
+        "ASu": {
+            "caption": "Double Transfer Executed",
+            "doc": "A split transfer was executed successfully. ",
+            "name": "double_transfer_executed"
+        },
+        "ASv": {
+            "caption": "Double Transfer Execute Error",
+            "doc": "A error occurred while executing a split transfer.",
+            "name": "double_transfer_execute_error"
+        },
+        "ATD": {
+            "caption": "ERC20 Transfer Executed",
+            "doc": "A ERC-20 transfer was executed successfully. ",
+            "name": "erc20_transfer_executed"
+        },
+        "ATE": {
+            "caption": "ERC20 Transfer Execute Error",
+            "doc": "A error occurred while transferring ERC-20 tokens.",
+            "name": "erc20_transfer_execute_error"
+        },
+        "ATq": {
+            "caption": "Send Transaction Executed",
+            "doc": "A raw transaction was executed successfully. ",
+            "name": "send_transaction_executed"
+        },
+        "AUS": {
+            "caption": "Message Signed",
+            "doc": "A message was signed successfully. ",
+            "name": "message_signed"
+        },
+        "AUd": {
+            "caption": "Address Recovered",
+            "name": "address_recovered"
+        }
+    },
+    "icon": "ion-cube",
+    "states": {
+        "ARR": {
+            "caption": "Wallet Address",
+            "doc": "The wallet address of the connected wallet.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "wallet_address",
+            "value": "text"
+        },
+        "ARZ": {
+            "caption": "Wallet Connected",
+            "doc": "A wallet was connected.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "wallet_connected",
+            "value": "boolean"
+        },
+        "ASJ": {
+            "caption": "ERC-20 Transfer Tx",
+            "doc": "The receipt of a token transfer.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "20_transfer_tx",
+            "value": "text"
+        },
+        "ASY": {
+            "caption": "Connected Chain ID",
+            "doc": "The ID number of the connected chain.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "connected_chain_id",
+            "value": "number"
+        },
+        "ASZ": {
+            "caption": "Connected Chain Name",
+            "doc": "The name of the connected chain.",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "connected_chain_name",
+            "value": "text"
+        },
+        "ASj": {
+            "caption": "Split Transfer Receipt",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "split_transfer_receipt",
+            "value": "text"
+        },
+        "ASk": {
+            "caption": "Split Transfer Execute Error",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "split_transfer_execute_error",
+            "value": "text"
+        },
+        "ASw": {
+            "caption": "Double Transfer TX hash 1",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "double_transfer_receipt_1",
+            "value": "text"
+        },
+        "ASx": {
+            "caption": "Double Transfer Execute Error",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "double_transfer_execute_error",
+            "value": "text"
+        },
+        "ASy": {
+            "caption": "Double Transfer TX hash 2",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "double_transfer_receipt_2",
+            "value": "text"
+        },
+        "ATF": {
+            "caption": "ERC20 Transfer hash",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "erc20_transfer_hash",
+            "value": "text"
+        },
+        "ATG": {
+            "caption": "ERC20 Transfer Execute Error",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "erc20_transfer_execute_error",
+            "value": "text"
+        },
+        "ATt": {
+            "caption": "Send Transaction Hash",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "send_transaction_hash",
+            "value": "text"
+        },
+        "AUR": {
+            "caption": "Signed Message",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "signed_message",
+            "value": "text"
+        },
+        "AUc": {
+            "caption": "Recovered Address",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "recovered_address",
+            "value": "text"
+        }
+    }
+}

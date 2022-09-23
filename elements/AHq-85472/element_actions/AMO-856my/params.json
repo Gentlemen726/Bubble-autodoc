@@ -1,0 +1,30 @@
+{
+    "caption": "DAO - Configure Treasury",
+    "doc": "Send governance tokens into the DAO treasury.",
+    "fields": {
+        "AMQ": {
+            "caption": "Percent To Treasury",
+            "doc": "The percent of the governance tokens the user holds that they will send to the DAO treasury.",
+            "editor": "DynamicValue",
+            "name": "percent_to_treasury",
+            "rank": 2,
+            "value": "text"
+        },
+        "AMR": {
+            "caption": "DAO Address",
+            "doc": "The smart contract address of the DAO we are configuring.",
+            "editor": "DynamicValue",
+            "name": "vote_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "AMS": {
+            "caption": "Governance Token Address",
+            "doc": "The contract address of the governance token for the DAO.",
+            "editor": "DynamicValue",
+            "name": "token_address",
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}

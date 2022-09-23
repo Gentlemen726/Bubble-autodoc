@@ -1,0 +1,40 @@
+{
+    "category": "plugins",
+    "display": "Send Native Token",
+    "fields": {
+        "AUI": {
+            "caption": "RPC URL",
+            "doc": "Provide a RPC url  for the network this NFT smart contracts deployed on. Mainnet example: https://main-light.eth.linkpool.io",
+            "editor": "DynamicValue",
+            "name": "default_provider",
+            "rank": 0,
+            "value": "text"
+        },
+        "AUJ": {
+            "caption": "To Address",
+            "doc": "The address that will receive the tokens.",
+            "editor": "DynamicValue",
+            "name": "to_address",
+            "rank": 1,
+            "value": "text"
+        },
+        "AUK": {
+            "caption": "Amount",
+            "doc": "The amount of the token being sent. 1 = 1 ETH.",
+            "editor": "DynamicValue",
+            "name": "amount",
+            "rank": 2,
+            "value": "number"
+        }
+    },
+    "return_value": {
+        "ATx": {
+            "caption": "Transaction Hash",
+            "name": "payload",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

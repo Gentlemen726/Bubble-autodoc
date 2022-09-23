@@ -1,0 +1,73 @@
+{
+    "category": "plugins",
+    "display": "Mint ERC-1155 NFT",
+    "fields": {
+        "ARk": {
+            "caption": "NFT Contract Address",
+            "doc": "The ERC-1155 NFT smart contract you are minting from.",
+            "editor": "DynamicValue",
+            "name": "nft_contract_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "ARl": {
+            "caption": "RPC URL",
+            "doc": "Provide a RPC url for the default provider for the network this NFT smart contract is deployed on. Mainnet example: https://main-light.eth.linkpool.io",
+            "editor": "DynamicValue",
+            "name": "default_provider",
+            "options": "https://rinkeby-light.eth.linkpool.io,https://polygon-rpc.com,https://main-light.eth.linkpool.io",
+            "rank": 1,
+            "value": "text"
+        },
+        "ARm": {
+            "caption": "Name",
+            "doc": "The name of this NFT.",
+            "editor": "DynamicValue",
+            "name": "name",
+            "rank": 2,
+            "value": "text"
+        },
+        "ARn": {
+            "caption": "Description",
+            "doc": "The description of this NFT.",
+            "editor": "DynamicValue",
+            "name": "description",
+            "rank": 3,
+            "value": "text"
+        },
+        "ARo": {
+            "caption": "Image",
+            "doc": "The image of this NFT.",
+            "editor": "DynamicValue",
+            "name": "image",
+            "rank": 4,
+            "value": "text"
+        },
+        "ARp": {
+            "caption": "Quantity",
+            "doc": "The amount of identical copies of this NFT. All of these copies will have the same token ID, unlike ERC-721 NFTs.",
+            "editor": "DynamicValue",
+            "name": "total_supply",
+            "rank": 5,
+            "value": "number"
+        },
+        "ARq": {
+            "caption": "To Address",
+            "doc": "The address that will receive these NFTs once they have been minted.",
+            "editor": "DynamicValue",
+            "name": "to_address",
+            "rank": 6,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "ARj": {
+            "caption": "Token ID",
+            "name": "payload",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

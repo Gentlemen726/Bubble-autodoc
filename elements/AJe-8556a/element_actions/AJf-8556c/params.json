@@ -1,0 +1,13 @@
+{
+    "caption": "Convert Hex to Number",
+    "fields": {
+        "AJg": {
+            "caption": "Hex Number",
+            "doc": "This is the hexadecimal number you are converting. Example 0x0005",
+            "editor": "DynamicValue",
+            "name": "hex_number",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

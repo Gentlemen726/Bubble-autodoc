@@ -1,0 +1,30 @@
+{
+    "caption": "ERC-20 Transfer",
+    "doc": "Transfer ERC-20 tokens",
+    "fields": {
+        "ATA": {
+            "caption": "Recipient Wallet",
+            "doc": "The wallet that will receive the erc20 tokens.",
+            "editor": "DynamicValue",
+            "name": "recipient_wallet",
+            "rank": 0,
+            "value": "text"
+        },
+        "ATB": {
+            "caption": "Amount",
+            "doc": "The amount of tokens being transferred.",
+            "editor": "DynamicValue",
+            "name": "amount",
+            "rank": 1,
+            "value": "number"
+        },
+        "ATC": {
+            "caption": "Token Address",
+            "doc": "The contract address of the erc20 token being transferred.",
+            "editor": "DynamicValue",
+            "name": "token_address",
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

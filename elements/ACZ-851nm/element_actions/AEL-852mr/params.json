@@ -1,0 +1,70 @@
+{
+    "caption": "Deploy ERC-1155 Collection",
+    "doc": "Deploy a ERC-1155 collection smart contract.",
+    "fields": {
+        "AEU": {
+            "caption": "Name",
+            "doc": "The name of this ERC-1155 smart contract. This will only be visible when viewing this NFT collection on NFT marketplaces such as OpenSea or Rarible.",
+            "editor": "DynamicValue",
+            "name": "name",
+            "rank": 0,
+            "value": "text"
+        },
+        "AEV": {
+            "caption": "Description",
+            "default_val": "This ERC-1155 smart contract token was deployed using The web3 toolbox created by JackMorgan.xyz",
+            "doc": "The description of this ERC-1155 smart contract. This will be visible when viewing this NFT collection on NFT marketplaces such as OpenSea or Rarible. of this ERC-721 smart contract. This will only be visible when viewing this NFT collection on NFT marketplaces such as OpenSea or Rarible.",
+            "editor": "DynamicValue",
+            "name": "description",
+            "optional": false,
+            "rank": 1,
+            "value": "text"
+        },
+        "AEW": {
+            "caption": "Image",
+            "default_val": "ipfs://QmYKNg4oN9B34yiT14R6JDueNKgVTYfNuuigkJo8jj57Mk",
+            "doc": "The image of this ERC-1155 smart contract. This will be visible when viewing this NFT collection on NFT marketplaces such as OpenSea or Rarible. This can be the value of a image uploader or an IPFS links formatted: ipfs://<CID>",
+            "editor": "DynamicValue",
+            "name": "image",
+            "optional": false,
+            "rank": 2,
+            "value": "text"
+        },
+        "AEX": {
+            "caption": "Symbol",
+            "default_val": "WEB3",
+            "doc": "The symbol of this ERC-1155 smart contract. This will only be visible when viewing this ERC-20 smart contract on a block explorer.",
+            "editor": "DynamicValue",
+            "name": "symbol",
+            "optional": false,
+            "rank": 3,
+            "value": "text"
+        },
+        "AEY": {
+            "caption": "Primary Sale Recipient",
+            "doc": "The wallet address that will receive the funds generated from the initial sale of NFTs minted from this smart contract. ",
+            "editor": "DynamicValue",
+            "name": "primary_sale_recipient",
+            "rank": 4,
+            "value": "text"
+        },
+        "AEZ": {
+            "caption": "Royalty Fee Recipient",
+            "doc": "Optional: The wallet address that will receive the funds generated from secondary sales of NFTs minted from this smart contract.",
+            "editor": "DynamicValue",
+            "name": "royalty_fee_recipient",
+            "optional": true,
+            "rank": 5,
+            "value": "text"
+        },
+        "AEa": {
+            "caption": "Royalty Fee Percentage",
+            "doc": "Optional: The percentage in basis points of secondary sales on NFTs minted from the market place that will be sent to the royalty fee recipient.",
+            "editor": "DynamicValue",
+            "name": "royalty_fee_percentage",
+            "optional": true,
+            "rank": 6,
+            "value": "number"
+        }
+    }
+}

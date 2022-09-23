@@ -1,0 +1,91 @@
+{
+    "caption": "NFT Drop - Claim Conditions",
+    "doc": "Set NFT Drop Claim Conditions.",
+    "fields": {
+        "ALK": {
+            "caption": "NFT Contract Address",
+            "doc": "The smart contract address of the NFTs being claimed.",
+            "editor": "DynamicValue",
+            "name": "nft_contract_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "ALL": {
+            "caption": "Presale Price",
+            "doc": "The price per NFT during the presale phase. Leave empty if you checked no on presale.",
+            "editor": "DynamicValue",
+            "name": "presale_price",
+            "optional": true,
+            "rank": 3,
+            "value": "number"
+        },
+        "ALM": {
+            "caption": "Presale Quantity",
+            "doc": "The total amount of NFTs that can be claimed by everyone in the presale phase. Leave empty if you checked no on presale.",
+            "editor": "DynamicValue",
+            "name": "presale_quantity",
+            "optional": true,
+            "rank": 4,
+            "value": "number"
+        },
+        "ALN": {
+            "caption": "Public Sale Price",
+            "doc": "The price per NFT during the public sale phase.",
+            "editor": "DynamicValue",
+            "name": "public_sale_price",
+            "rank": 6,
+            "value": "number"
+        },
+        "ALO": {
+            "caption": "Public Sale Start",
+            "doc": "Use a date and time picker to allow the user to choose when the public sale will start. The presale will automatically end when the public starts.",
+            "editor": "DynamicValue",
+            "name": "hours_until_public_sale",
+            "rank": 7,
+            "value": "date"
+        },
+        "ALP": {
+            "caption": "Presale Start",
+            "doc": "Use a date and time picker to allow the user to choose when the presale will start. Leave empty if you checked no on presale.",
+            "editor": "DynamicValue",
+            "name": "hours_until_presale",
+            "optional": true,
+            "rank": 5,
+            "value": "date"
+        },
+        "ALQ": {
+            "caption": "Currency",
+            "doc": "The contract address that the token that will be used to claim this NFT.",
+            "editor": "DynamicValue",
+            "name": "currency",
+            "rank": 9,
+            "value": "text"
+        },
+        "ALR": {
+            "caption": "Whitelist Addresses",
+            "doc": "Pass in a list of texts to this field, each text will be a whitelisted wallet address. If presale is checked yes and whitelist is checked yes, the whitelist will be active for the presale. If presale is checked no and whitelist is checked yes the whitelist will be active for the public sale.",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "whitelist",
+            "optional": true,
+            "rank": 8,
+            "value": "text"
+        },
+        "ASb": {
+            "caption": "Presale",
+            "doc": "Yes, to have a presale phase before your public mint. ",
+            "editor": "DynamicValue",
+            "name": "presale",
+            "rank": 1,
+            "value": "boolean"
+        },
+        "ASc": {
+            "caption": "Whitelist",
+            "doc": "If presale is checked yes and whitelist is checked yes, the whitelist will be active for the presale. If presale is checked no and whitelist is checked yes the whitelist will be active for the public sale.",
+            "editor": "DynamicValue",
+            "name": "whitelist_y_n",
+            "rank": 2,
+            "value": "boolean"
+        }
+    }
+}

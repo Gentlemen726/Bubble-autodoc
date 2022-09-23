@@ -1,0 +1,51 @@
+{
+    "caption": "ERC-721 - Mint NFT",
+    "doc": "Mint an ERC-721 NFT.",
+    "fields": {
+        "AFZ": {
+            "caption": "NFT Contract Address",
+            "doc": "The NFT contract address that you will be minting from.",
+            "editor": "DynamicValue",
+            "long_text": false,
+            "name": "nft_contract_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "AFa": {
+            "caption": "Name",
+            "doc": "The name of the NFT being minted. This cannot be changed after minting, and will be visable when viewing this NFT on NFT marketplaces such as Opensea or Rarible.",
+            "editor": "DynamicValue",
+            "name": "nft_name",
+            "optional": false,
+            "rank": 1,
+            "value": "text"
+        },
+        "AFb": {
+            "caption": "Description",
+            "doc": "The description of the NFT being minted. This cannot be changed after minting, and will be visable when viewing this NFT on NFT marketplaces such as Opensea or Rarible.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "nft_description",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        },
+        "AFc": {
+            "caption": "Image",
+            "doc": "The image of the NFT being minted. This cannot be changed after minting, and will be visable when viewing this NFT on NFT marketplaces such as Opensea or Rarible.This can be the value of an image uploader, or an IPFS link formatted as: ipfs://<CID> ",
+            "editor": "DynamicValue",
+            "name": "image_url",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AFd": {
+            "caption": "NFT Receiver",
+            "doc": "The address that will receive the NFT when it is minted.",
+            "editor": "DynamicValue",
+            "name": "nft_receiver",
+            "rank": 4,
+            "value": "text"
+        }
+    }
+}

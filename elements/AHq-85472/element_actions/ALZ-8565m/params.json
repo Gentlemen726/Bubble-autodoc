@@ -1,0 +1,28 @@
+{
+    "caption": "NFT Drop - Upload Metadata",
+    "doc": "Upload NFT Metadata of a NFT drop.",
+    "fields": {
+        "ALp": {
+            "caption": "Metadata",
+            "doc": "Please pass in a stringified array of JSON objects.",
+            "editor": "DynamicValue",
+            "name": "metadatas",
+            "rank": 0,
+            "value": "text"
+        },
+        "ALq": {
+            "caption": "[{name: \"NFT 1\",   description: \"This NFT 1\",   image: ipfs://QmaP1b7LCiyRvUA2aJfYrAkLXmK4cca5EEPvzJ7DSAxRx6}, {name: \"NFT 2\",   description: \"This is NFT 2\",   image: ipfs://QmaP1b7LCiyRvUA2aJfYrAkLXmK4cca5EEPvzJ7DSAxRx6\" }];",
+            "editor": "Label",
+            "name": "example",
+            "rank": 1
+        },
+        "ALv": {
+            "caption": "NFT Drop Contract Address",
+            "doc": "The contract address this metadata is being uploaded to.",
+            "editor": "DynamicValue",
+            "name": "nft_drop_contract_address",
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

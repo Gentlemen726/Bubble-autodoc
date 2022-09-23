@@ -1,0 +1,38 @@
+{
+    "caption": "DAO - Create Transfer Proposal From DAO Treasury",
+    "doc": "Create a proposal to transfer a batch of tokens to a wallet from the DAO treasury.",
+    "fields": {
+        "AMd": {
+            "caption": "DAO Address",
+            "doc": "The contract address of the DAO being proposed to.",
+            "editor": "DynamicValue",
+            "name": "dao_address",
+            "rank": 0,
+            "value": "text"
+        },
+        "AMf": {
+            "caption": "Token Address",
+            "doc": "The ERC-20 governance token contract address that is being proposed to send.",
+            "editor": "DynamicValue",
+            "name": "token_address",
+            "rank": 1,
+            "value": "text"
+        },
+        "AMl": {
+            "caption": "Amount Of Tokens",
+            "doc": "The amount of the governance token we are wanting to mint.",
+            "editor": "DynamicValue",
+            "name": "amount",
+            "rank": 2,
+            "value": "number"
+        },
+        "AMm": {
+            "caption": "Recipient",
+            "doc": "The wallet address that will receive the tokens.",
+            "editor": "DynamicValue",
+            "name": "recipient",
+            "rank": 3,
+            "value": "text"
+        }
+    }
+}

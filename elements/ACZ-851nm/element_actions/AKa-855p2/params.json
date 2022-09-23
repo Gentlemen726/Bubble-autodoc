@@ -1,0 +1,46 @@
+{
+    "caption": "Deploy Token Drop",
+    "doc": "Deploy a ERC-20 token drop contract.",
+    "fields": {
+        "AKb": {
+            "caption": "Name",
+            "doc": "The name of this ERC-20 smart contract. This will only be visible when viewing this splitter on a block explorer.",
+            "editor": "DynamicValue",
+            "name": "name",
+            "rank": 0,
+            "value": "text"
+        },
+        "AKc": {
+            "caption": "Description",
+            "doc": "The description of the ERC-20. This will only be visible when viewing this splitter on a block explorer.",
+            "editor": "DynamicValue",
+            "name": "description",
+            "rank": 1,
+            "value": "text"
+        },
+        "AKd": {
+            "caption": "Image",
+            "doc": "The image of this ERC-20. This will only be visible when viewing this ERC-20 smart contract on a block explorer. This can be the value of a image uploader or an IPFS links formatted: ipfs://<CID>",
+            "editor": "DynamicValue",
+            "name": "image",
+            "rank": 2,
+            "value": "text"
+        },
+        "AKe": {
+            "caption": "Symbol",
+            "doc": "The symbol of this ERC-20 smart contract. This will only be visible when viewing this ERC-20 smart contract on a block explorer.",
+            "editor": "DynamicValue",
+            "name": "symbol",
+            "rank": 3,
+            "value": "text"
+        },
+        "AKf": {
+            "caption": "Primary Sale Recipient ",
+            "doc": "The wallet address that will receive the funds when these tokens are sold.",
+            "editor": "DynamicValue",
+            "name": "primary_sale_recipient",
+            "rank": 4,
+            "value": "text"
+        }
+    }
+}

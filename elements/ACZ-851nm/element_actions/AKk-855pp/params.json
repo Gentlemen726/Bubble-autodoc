@@ -1,0 +1,64 @@
+{
+    "caption": "Deploy ERC-721 Drop",
+    "doc": "Deploy a ERC-721 NFT drop contract.",
+    "fields": {
+        "AKl": {
+            "caption": "Name",
+            "doc": "The name of this ERC-721 drop smart contract. This will be visible when viewing this NFT collection on NFT marketplaces such as OpenSea or Rarible.",
+            "editor": "DynamicValue",
+            "name": "name",
+            "rank": 0,
+            "value": "text"
+        },
+        "AKm": {
+            "caption": "Image",
+            "doc": "The image of this ERC-721 drop smart contract. This will be visible when viewing this NFT collection on NFT marketplaces such as OpenSea or Rarible. This can be the value of a image uploader or an IPFS links formatted: ipfs://<CID>",
+            "editor": "DynamicValue",
+            "name": "image",
+            "rank": 1,
+            "value": "text"
+        },
+        "AKn": {
+            "caption": "Description",
+            "doc": "The description of this ERC-721 smart contract. This will be visible when viewing this NFT collection on NFT marketplaces such as OpenSea or Rarible. of this ERC-721 drop smart contract. This will only be visible when viewing this NFT collection on NFT marketplaces such as OpenSea or Rarible.",
+            "editor": "DynamicValue",
+            "name": "description",
+            "rank": 2,
+            "value": "text"
+        },
+        "AKo": {
+            "caption": "Symbol",
+            "doc": "The symbol of this ERC-721 smart contract. This will only be visible when viewing this ERC-721 drop smart contract on a block explorer.",
+            "editor": "DynamicValue",
+            "name": "symbol",
+            "rank": 3,
+            "value": "text"
+        },
+        "AKp": {
+            "caption": "Primary Sale Recipient",
+            "doc": "The wallet address that will receive the funds generated from the initial sale of NFTs minted from this smart contract. ",
+            "editor": "DynamicValue",
+            "name": "primary_sale_recipient",
+            "rank": 4,
+            "value": "text"
+        },
+        "AKq": {
+            "caption": "Royalty Percentage",
+            "doc": "Optional: The percentage in basis points of secondary sales on NFTs minted from the market place that will be sent to the royalty fee recipient.",
+            "editor": "DynamicValue",
+            "name": "seller_fee_basis_points",
+            "optional": true,
+            "rank": 5,
+            "value": "number"
+        },
+        "AKr": {
+            "caption": "Royalty Fee Recipient",
+            "doc": "Optional: The wallet address that will receive the funds generated from secondary sales of NFTs minted from this smart contract.",
+            "editor": "DynamicValue",
+            "name": "fee_recipient",
+            "optional": true,
+            "rank": 6,
+            "value": "text"
+        }
+    }
+}

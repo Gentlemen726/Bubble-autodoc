@@ -1,0 +1,24 @@
+{
+    "category": "plugins",
+    "display": "Sign Message",
+    "fields": {
+        "AUN": {
+            "caption": "Message",
+            "doc": "The message you would like to sign with the private key.",
+            "editor": "DynamicValue",
+            "name": "message",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AUO": {
+            "caption": "signature",
+            "name": "signature",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}
